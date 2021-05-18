@@ -1,0 +1,43 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+
+.LoginForm{
+
+    .formBottom{
+        margin:20px 0px;
+    }
+
+
+    .button{
+        width:121px;
+        height: 52px;
+        background-color: #ff949e;
+        border-radius: 5px;
+        border-color: #ff949e;
+        margin-right: 24px;
+
+         &:hover{
+            background-color:#ff6674;
+            transition: 0.3s;
+         }
+    }
+
+    .linkStyle{
+        font-size: 18px;
+        line-height: 27px;
+        color:#505050;
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+         
+         &:hover{
+             color:#ff6674;
+             transition: 0.3s;
+         }
+    }
+
+    .Input{
+        height: 54px;
+        padding:16px 8px;
+    }
+}

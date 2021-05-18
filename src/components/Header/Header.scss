@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Source+Sans+Pro:wght@600&display=swap');
+@import "~bootstrap/scss/bootstrap";
+
+
+$lightPink:#ff949e;
+$darkPink:#ff6674;
+$grey:#505050;
+
+
+.mainDiv{
+
+
+.headerDiv{
+justify-content: space-between;
+ display: flex;
+ margin:40px 0px;
+ padding-top:57px;
+ 
+    img{
+        width: 340px;
+        height: 85px;
+        margin-left: 25px;
+    }
+}
+
+
+hr{
+    border-color: $lightPink;
+    margin: 0px 20px;
+}
+}
+
+.headerRight{
+
+    display: flex;
+    flex-direction: column;
+        .headerIcons{
+            display: flex;
+            list-style: none;
+            justify-content: flex-end;
+            li{
+                margin-right:15px;
+                margin-bottom:15px;
+                color:$grey;
+        
+                div{
+                    background-color: $lightPink;
+                    border-radius: 50%;
+                    color:white;
+                    font-size: 12px;
+                    padding:2px 5px;
+                    text-align: center;
+                    margin-left: 10px;
+                }
+
+                &:hover{
+                    cursor: pointer;
+                    color:$lightPink;
+                    transition: 0.3s;
+                }
+            }
+        }
+        
+            .headerList{
+                display: flex;
+                list-style: none;
+                font-size: 24px;
+                line-height: 36px;
+                text-align: center;
+                letter-spacing: normal;
+        
+                .linkStyle{
+                    color:$grey;
+                    text-decoration: none;
+                    list-style:none;
+                    margin-right:20px;
+                    font-family: 'Indie Flower', cursive;
+
+                    &:hover{                        
+                    color:$darkPink;
+                    transition: 0.3s;
+                    }
+                }
+            }
+
+} 
+
+.Modal{
+
+    label{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: start;
+        margin-bottom: 8px;
+    }    
+
+
+      .title{
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        color:#404040;
+        font-size:36px;
+        line-height: 54px;
+        padding-top:50px;
+        width: 700px;
+
+        img{
+            width: 124px;
+            height: 152px;
+            margin-right: 24px;
+          }
+      }
+}
+
+
+
+
+

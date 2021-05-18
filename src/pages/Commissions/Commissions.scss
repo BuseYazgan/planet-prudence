@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro&display=swap');
+
+
+.commissionsDiv{
+    .linkStyle{
+        color:white;
+        background-color:#ff949e;
+        border-color: #ff949e;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        padding:16px 32px;
+        border-radius: 5px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-decoration: none;
+          
+          &:hover{
+               background-color: #ff6674;
+               transition: 0.3s;
+          }
+    }
+}
+
+.firstSection{      
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin:100px 0px;
+    padding: 0px 32px;
+
+      .firstDiv{
+          width: 35%;
+          margin-top: 50px;
+
+          h1{
+              text-align: center;
+              font-family: 'Lato', sans-serif;
+              font-size: 48px;
+              line-height: 72px;
+              color:#404040;
+              margin-bottom:50px;
+          }
+
+           p{
+               text-align: center;
+               font-family: 'Source Sans Pro', sans-serif;
+               font-size: 18px;
+               line-height: 27px;
+               margin:18px 0px;          
+             }
+      }
+}
+
+.horizontal{
+    border-color: #ff949e;
+    margin: 0px 20px; 
+}
+
+.secondSection{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 32px 0px;
+
+    img{
+        width: 460px;
+        height: 280px;
+    }
+
+    h3{
+        font-family: 'Lato', sans-serif;
+        font-size: 36px;
+        line-height: 54px;
+        text-align: start;
+        color:#404040;
+        margin-top:16px;
+        margin-bottom: 24px;
+     }
+
+     p{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: start;
+        margin-top:16px;
+     }
+
+     h4{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: start;
+        color:#404040;
+        margin:16px 0px;
+     }
+
+     .smallInfo{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: start;
+        color: #404040;
+     }
+
+     .buttonDiv{         
+         margin-top:24px;
+         text-align: center;
+     }
+
+     .Portraits {        
+        width: 460px;
+        height: 677px;
+     }
+
+     .customComics{
+        width: 460px;
+        height: 677px;
+     }
+
+     .businessComics{
+        width: 460px;
+        height: 677px;
+     }
+
+}
+
+.thirdSection{
+    display:flex;
+    margin:100px 0px;
+    padding:0px 32px;
+
+    .pics{
+      display:flex;
+      flex-wrap:wrap;
+      width: 50%;
+        
+      img{
+         width: 210px;
+         height: 140px;
+         margin:10px 10px;
+         object-fit: cover;
+      }
+    }
+
+    .picInfos{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left:50px;
+
+        h2{
+            font-family: 'Lato', sans-serif;
+            line-height: 72px;
+            font-size: 48px;
+            text-align: left;
+            color:#404040;
+        }
+
+        p{
+            font-family: 'Source Sans Pro', sans-serif;
+            line-height: 27px;
+            font-size: 18px;
+            text-align: left;
+            color:#404040;
+            margin-top: 18px;
+        }
+
+        .linkStyle{
+            width: 25%;
+        }
+    }
+}

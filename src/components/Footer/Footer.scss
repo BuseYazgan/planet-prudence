@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro&display=swap');
+
+.footerDiv{
+    background-color: #404040;
+
+    hr{
+        border: 1.5px solid white;
+        margin:0px 20px;
+    }
+}
+
+.footerTop{
+    text-align: center;
+    img{
+        margin:50px 0px;
+        width: 267px;
+        height: 42px;
+    }
+    .footerList{
+        display: flex;
+        list-style: none;
+        color:white;
+        justify-content: center;
+        margin-right:50px;
+
+        li{
+            font-family: 'Indie Flower', cursive;
+            font-size: 25px;
+            line-height:36px;
+            cursor:pointer;
+            margin-left: 30px;
+            text-align: center;
+            letter-spacing: normal;
+            margin-bottom: 10px;
+
+            &:hover{
+                color: #ff6674;
+                transition: 0.5s;
+            }
+        }
+    }
+
+}
+
+.footerBottom{
+
+    text-align: center;
+    p{
+        font-family: 'Source Sans Pro', sans-serif;
+        color:white;
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 20px;
+
+        a{
+            text-decoration: none;
+            color:white;
+            font-family: 'Lato', sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+
+            &:hover{
+                color: #ff6674;
+                transition: 0.5s;
+    
+              }
+        }
+    }
+}
+
+.footerLinks{
+    display:flex;
+    justify-content: center;
+      a{
+          margin-left: 20px;
+          margin-bottom: 50px;
+          color:white;
+          font-family: 'Lato', sans-serif;
+          font-size: 14px;
+          line-height: 21px;
+
+          &:hover{
+            color: #ff6674;
+            transition: 0.5s;
+
+          }
+      }
+}
+
+.footerIcons{
+    display: flex;
+    justify-content: center;
+    margin-right:25px;
+
+    li{
+        list-style: none;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin:45px 10px;
+        color:white;
+        border: 1px solid white;
+        border-radius: 50%;
+        cursor: pointer;
+
+        &:hover{
+            color: #ff6674;
+            border: 1px solid #ff6674;
+            transition: 0.3s;
+        }
+    }
+
+}
+

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+
+$light-background: #fff4f5;
+$dark-background:#ff949e;
+
+
+.navBar{
+    display:flex;
+    justify-content: space-between;
+    background-color: $light-background;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 57px;
+    position: fixed;
+    top:0;
+    width: 100vw;
+    z-index: 1;
+    
+    p{
+        font-size: 18px;
+        line-height: 27px;
+        text-align: start;
+        letter-spacing: normal;
+        color:$dark-background;
+        margin-top: 15px;   
+        margin-left: 50px;   
+    }
+}
+
+.navbarList{
+    display: flex;  
+    margin-right: 20px;  
+
+    li{
+      list-style: none;
+      padding-top: 5px;
+      padding-bottom: 30px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin:10px 5px;
+      color:$dark-background;
+      border: 1px solid $dark-background;
+      border-radius: 50%;
+        
+      &:hover{
+        color:#505050;
+        transition: 0.5s;
+        cursor: pointer;
+        border: 1px solid #505050;
+      }
+    }
+
+}

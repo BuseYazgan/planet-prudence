@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro&display=swap');
+
+
+
+.contactTopDiv{
+
+    margin:100px 0px;
+
+    h1{
+        font-family: 'Lato', sans-serif;
+        font-size: 48px;
+        line-height: 72px;
+        text-align: center;
+        color:#404040;
+    }
+
+    p{
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 36px;
+        font-size: 24px;
+        text-align: center;
+        color:#404040;
+        margin-top:24px;
+    }
+}
+
+
+.formLeft{
+    background-color: #fff4f5;
+    height: 545px;
+    width: 710px;
+
+    img{       
+        height: 290px;
+        margin: 20% 30%;
+    }
+}
+
+.contactFormDiv{
+    display:flex;
+    justify-content: space-evenly;
+    margin:100px 0px;
+
+    label{
+      display: flex;
+      flex-direction: column;
+      font-family: 'Source Sans Pro', sans-serif;
+      color:#505050;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: left;
+      margin-bottom: 25px;
+
+
+      p{
+          color:#ff717e;
+          font-size: 18px;
+          line-height: 27px;
+      }
+        
+       input{
+           color:black;
+           width: 710px;
+           height: 54px;
+           padding: 16px 8px;           
+       }
+
+       textArea{
+           width: 710px;
+           height: 200px;
+           padding: 16px 8px;  
+       }
+
+    }
+      
+    .form{
+        display:flex;
+        flex-direction: column;
+        
+       .inputButton{
+        font-family: 'Source Sans Pro', sans-serif;
+        padding: 16px 32px;
+        font-size: 18px;
+        line-height: 20.7px;
+        text-align: center;
+        background-color: #ff949e;
+        color:white;
+        border-radius: 5px;
+        border-color: #ff949e;
+        width: 30%;
+        margin-top: 10px;
+          
+         &:hover{
+            background-color: #ff717e;
+            transition: 0.3s;
+            cursor: pointer;
+         }
+    }
+    }
+}
+
+.contactBottomDiv{
+    display: flex;
+    justify-content: space-around;
+    margin:100px 0px;
+
+
+    .BottomLeft{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    img{
+        width: 680px;
+        height: 380px;
+    }
+
+    h2{
+        font-family: 'Lato', sans-serif;
+        font-size: 48px;
+        line-height: 72px;
+        text-align: left;
+        color:#404040;
+    }
+
+    p{
+        font-family: 'Source Sans Pro', sans-serif;
+        color:#404040;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: left;
+    }
+
+    .linkStyle{
+        text-decoration: none;
+        font-family: 'Source Sans Pro', sans-serif;
+        color:white;
+        background-color: #ff949e;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 16px 32px;
+        width: 40%;
+
+         &:hover{
+            background-color: #ff717e;
+            transition: 0.3s;
+            cursor: pointer;
+         }
+    }
+}
+

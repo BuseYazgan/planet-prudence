@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+
+
+
+.signUpMain{
+
+    h2{
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 48px;
+        line-height: 72px;
+        color:#404040;
+        font-weight: bold;
+        margin-top: 100px;
+        margin-bottom:50px;
+    }
+
+}
+
+.signUpDiv{
+    display: flex;
+    justify-content: center;
+    margin:100px 0px;
+    
+    .formLeft{
+        width: 548px;
+        height: 487px;
+        margin-right:15px;
+    }
+
+    }
+      
+    .signUpForm{
+        display:flex;
+        flex-direction: column;
+
+
+        .Options{
+            display: flex;
+
+            .d-flex{
+                margin-right:10px;
+            }
+            
+            input{
+                margin-top:8px;
+            }
+        }
+    
+        label{
+          display: flex;
+          flex-direction: column;
+          font-family: 'Source Sans Pro', sans-serif;
+          color:#505050;
+          font-size: 20px;
+          line-height: 30px;
+          text-align: left;
+          margin-bottom: 8px;
+    
+    
+          p{
+              color:#ff717e;
+              font-size: 18px;
+              line-height: 27px;
+              margin:0px;
+          }
+            
+           input{
+               color:black;
+               width: 548px;
+               height: 54px;
+               padding: 16px 8px;    
+               margin-bottom: 15px;       
+           }
+        }
+        
+       .inputButton{
+        font-family: 'Source Sans Pro', sans-serif;
+        padding: 16px 32px;
+        font-size: 18px;
+        line-height: 20.7px;
+        text-align: center;
+        background-color: #ff949e;
+        color:white;
+        border-radius: 5px;
+        border-color: #ff949e;
+        width: 35%;
+        margin-top: 30px;
+          
+         &:hover{
+            background-color: #ff717e;
+            transition: 0.3s;
+            cursor: pointer;
+         }
+
+    }
+}
